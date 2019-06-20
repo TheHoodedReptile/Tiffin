@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1E8EA1CA467C934C734EBC /* Pods_Tiffin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C528B4A2FA060B87D0D76FA /* Pods_Tiffin.framework */; };
+		42E5B711356944FA25D374A1 /* Pods_TiffinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28125AD31D9E053BFC89D6A5 /* Pods_TiffinUITests.framework */; };
+		4912E51F22B6DE9E004FE7B4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912E51E22B6DE9E004FE7B4 /* MainViewController.swift */; };
+		4912E52322B6F199004FE7B4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912E52222B6F199004FE7B4 /* User.swift */; };
+		4913A7CE22B590BE00016A0F /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4913A7CD22B590BE00016A0F /* CustomSegue.swift */; };
+		4913A7D022B5937600016A0F /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4913A7CF22B5937600016A0F /* LaunchScreenViewController.swift */; };
+		4914CC3B22B4797C008AA14F /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914CC3A22B4797C008AA14F /* SignInViewController.swift */; };
+		4914CC3D22B4BAE6008AA14F /* AllergyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914CC3C22B4BAE6008AA14F /* AllergyViewController.swift */; };
+		495DB63022B455160051BE89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 495DB62F22B455160051BE89 /* GoogleService-Info.plist */; };
+		49C6499622B327650061B2E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C6499522B327650061B2E6 /* AppDelegate.swift */; };
+		49C6499822B327650061B2E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C6499722B327650061B2E6 /* ViewController.swift */; };
+		49C6499B22B327650061B2E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C6499922B327650061B2E6 /* Main.storyboard */; };
+		49C6499D22B327660061B2E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C6499C22B327660061B2E6 /* Assets.xcassets */; };
+		49C649A022B327660061B2E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C6499E22B327660061B2E6 /* LaunchScreen.storyboard */; };
+		49C649AB22B327660061B2E6 /* TiffinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C649AA22B327660061B2E6 /* TiffinTests.swift */; };
+		49C649B622B327660061B2E6 /* TiffinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C649B522B327660061B2E6 /* TiffinUITests.swift */; };
+		6A1AE6053F37EC13102FF35C /* Pods_TiffinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750ED79C3282944C30EB38E3 /* Pods_TiffinTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49C649A722B327660061B2E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49C6498A22B327650061B2E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49C6499122B327650061B2E6;
+			remoteInfo = Tiffin;
+		};
+		49C649B222B327660061B2E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49C6498A22B327650061B2E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49C6499122B327650061B2E6;
+			remoteInfo = Tiffin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C0EA7F0BE2BEC82101E00BC /* Pods-TiffinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiffinUITests.release.xcconfig"; path = "Target Support Files/Pods-TiffinUITests/Pods-TiffinUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1C528B4A2FA060B87D0D76FA /* Pods_Tiffin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tiffin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28125AD31D9E053BFC89D6A5 /* Pods_TiffinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiffinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4912E51D22B6D213004FE7B4 /* Tiffin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tiffin.entitlements; sourceTree = "<group>"; };
+		4912E51E22B6DE9E004FE7B4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4912E52222B6F199004FE7B4 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4913A7CD22B590BE00016A0F /* CustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
+		4913A7CF22B5937600016A0F /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		4914CC3A22B4797C008AA14F /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		4914CC3C22B4BAE6008AA14F /* AllergyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergyViewController.swift; sourceTree = "<group>"; };
+		495DB62F22B455160051BE89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		49C6499222B327650061B2E6 /* Tiffin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tiffin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C6499522B327650061B2E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49C6499722B327650061B2E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49C6499A22B327650061B2E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49C6499C22B327660061B2E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49C6499F22B327660061B2E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49C649A122B327660061B2E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C649A622B327660061B2E6 /* TiffinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiffinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C649AA22B327660061B2E6 /* TiffinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiffinTests.swift; sourceTree = "<group>"; };
+		49C649AC22B327660061B2E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C649B122B327660061B2E6 /* TiffinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiffinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C649B522B327660061B2E6 /* TiffinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiffinUITests.swift; sourceTree = "<group>"; };
+		49C649B722B327660061B2E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A6052641B576B09EA5852A5 /* Pods-Tiffin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiffin.debug.xcconfig"; path = "Target Support Files/Pods-Tiffin/Pods-Tiffin.debug.xcconfig"; sourceTree = "<group>"; };
+		6637D00C622ABF9158D0FACC /* Pods-Tiffin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiffin.release.xcconfig"; path = "Target Support Files/Pods-Tiffin/Pods-Tiffin.release.xcconfig"; sourceTree = "<group>"; };
+		750ED79C3282944C30EB38E3 /* Pods_TiffinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiffinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		828DA04C117909BFBE905D4C /* Pods-TiffinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiffinUITests.debug.xcconfig"; path = "Target Support Files/Pods-TiffinUITests/Pods-TiffinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		911560772FD6605D685A19C7 /* Pods-TiffinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiffinTests.debug.xcconfig"; path = "Target Support Files/Pods-TiffinTests/Pods-TiffinTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E682770BA57053B00ACD46AE /* Pods-TiffinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiffinTests.release.xcconfig"; path = "Target Support Files/Pods-TiffinTests/Pods-TiffinTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49C6498F22B327650061B2E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1E8EA1CA467C934C734EBC /* Pods_Tiffin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C649A322B327660061B2E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1AE6053F37EC13102FF35C /* Pods_TiffinTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C649AE22B327660061B2E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42E5B711356944FA25D374A1 /* Pods_TiffinUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2144147BEB5B09A431F9B7AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A6052641B576B09EA5852A5 /* Pods-Tiffin.debug.xcconfig */,
+				6637D00C622ABF9158D0FACC /* Pods-Tiffin.release.xcconfig */,
+				911560772FD6605D685A19C7 /* Pods-TiffinTests.debug.xcconfig */,
+				E682770BA57053B00ACD46AE /* Pods-TiffinTests.release.xcconfig */,
+				828DA04C117909BFBE905D4C /* Pods-TiffinUITests.debug.xcconfig */,
+				0C0EA7F0BE2BEC82101E00BC /* Pods-TiffinUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		49C6498922B327650061B2E6 = {
+			isa = PBXGroup;
+			children = (
+				49C6499422B327650061B2E6 /* Tiffin */,
+				49C649A922B327660061B2E6 /* TiffinTests */,
+				49C649B422B327660061B2E6 /* TiffinUITests */,
+				49C6499322B327650061B2E6 /* Products */,
+				2144147BEB5B09A431F9B7AE /* Pods */,
+				D1C9277E7B927D7915D46084 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49C6499322B327650061B2E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49C6499222B327650061B2E6 /* Tiffin.app */,
+				49C649A622B327660061B2E6 /* TiffinTests.xctest */,
+				49C649B122B327660061B2E6 /* TiffinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49C6499422B327650061B2E6 /* Tiffin */ = {
+			isa = PBXGroup;
+			children = (
+				4912E51D22B6D213004FE7B4 /* Tiffin.entitlements */,
+				49C6499522B327650061B2E6 /* AppDelegate.swift */,
+				49C6499722B327650061B2E6 /* ViewController.swift */,
+				49C6499922B327650061B2E6 /* Main.storyboard */,
+				4912E51E22B6DE9E004FE7B4 /* MainViewController.swift */,
+				4913A7CF22B5937600016A0F /* LaunchScreenViewController.swift */,
+				4913A7CD22B590BE00016A0F /* CustomSegue.swift */,
+				4912E52222B6F199004FE7B4 /* User.swift */,
+				4914CC3C22B4BAE6008AA14F /* AllergyViewController.swift */,
+				4914CC3A22B4797C008AA14F /* SignInViewController.swift */,
+				49C6499C22B327660061B2E6 /* Assets.xcassets */,
+				49C6499E22B327660061B2E6 /* LaunchScreen.storyboard */,
+				495DB62F22B455160051BE89 /* GoogleService-Info.plist */,
+				49C649A122B327660061B2E6 /* Info.plist */,
+			);
+			path = Tiffin;
+			sourceTree = "<group>";
+		};
+		49C649A922B327660061B2E6 /* TiffinTests */ = {
+			isa = PBXGroup;
+			children = (
+				49C649AA22B327660061B2E6 /* TiffinTests.swift */,
+				49C649AC22B327660061B2E6 /* Info.plist */,
+			);
+			path = TiffinTests;
+			sourceTree = "<group>";
+		};
+		49C649B422B327660061B2E6 /* TiffinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49C649B522B327660061B2E6 /* TiffinUITests.swift */,
+				49C649B722B327660061B2E6 /* Info.plist */,
+			);
+			path = TiffinUITests;
+			sourceTree = "<group>";
+		};
+		D1C9277E7B927D7915D46084 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C528B4A2FA060B87D0D76FA /* Pods_Tiffin.framework */,
+				750ED79C3282944C30EB38E3 /* Pods_TiffinTests.framework */,
+				28125AD31D9E053BFC89D6A5 /* Pods_TiffinUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49C6499122B327650061B2E6 /* Tiffin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C649BA22B327660061B2E6 /* Build configuration list for PBXNativeTarget "Tiffin" */;
+			buildPhases = (
+				F1F6AB46FF6DABD6C1CFE3AC /* [CP] Check Pods Manifest.lock */,
+				49C6498E22B327650061B2E6 /* Sources */,
+				49C6498F22B327650061B2E6 /* Frameworks */,
+				49C6499022B327650061B2E6 /* Resources */,
+				6FEB779E62F4C4A2536769D8 /* [CP] Embed Pods Frameworks */,
+				1ED8868735EA94E0EF5AB2ED /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tiffin;
+			productName = Tiffin;
+			productReference = 49C6499222B327650061B2E6 /* Tiffin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49C649A522B327660061B2E6 /* TiffinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C649BD22B327660061B2E6 /* Build configuration list for PBXNativeTarget "TiffinTests" */;
+			buildPhases = (
+				AD09494B0D81C6F2C198219F /* [CP] Check Pods Manifest.lock */,
+				49C649A222B327660061B2E6 /* Sources */,
+				49C649A322B327660061B2E6 /* Frameworks */,
+				49C649A422B327660061B2E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49C649A822B327660061B2E6 /* PBXTargetDependency */,
+			);
+			name = TiffinTests;
+			productName = TiffinTests;
+			productReference = 49C649A622B327660061B2E6 /* TiffinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49C649B022B327660061B2E6 /* TiffinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C649C022B327660061B2E6 /* Build configuration list for PBXNativeTarget "TiffinUITests" */;
+			buildPhases = (
+				3CA67F54C423C1114430E9A3 /* [CP] Check Pods Manifest.lock */,
+				49C649AD22B327660061B2E6 /* Sources */,
+				49C649AE22B327660061B2E6 /* Frameworks */,
+				49C649AF22B327660061B2E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49C649B322B327660061B2E6 /* PBXTargetDependency */,
+			);
+			name = TiffinUITests;
+			productName = TiffinUITests;
+			productReference = 49C649B122B327660061B2E6 /* TiffinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49C6498A22B327650061B2E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = GoatIndustries;
+				TargetAttributes = {
+					49C6499122B327650061B2E6 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					49C649A522B327660061B2E6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 49C6499122B327650061B2E6;
+					};
+					49C649B022B327660061B2E6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 49C6499122B327650061B2E6;
+					};
+				};
+			};
+			buildConfigurationList = 49C6498D22B327650061B2E6 /* Build configuration list for PBXProject "Tiffin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49C6498922B327650061B2E6;
+			productRefGroup = 49C6499322B327650061B2E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49C6499122B327650061B2E6 /* Tiffin */,
+				49C649A522B327660061B2E6 /* TiffinTests */,
+				49C649B022B327660061B2E6 /* TiffinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49C6499022B327650061B2E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C649A022B327660061B2E6 /* LaunchScreen.storyboard in Resources */,
+				495DB63022B455160051BE89 /* GoogleService-Info.plist in Resources */,
+				49C6499D22B327660061B2E6 /* Assets.xcassets in Resources */,
+				49C6499B22B327650061B2E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C649A422B327660061B2E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C649AF22B327660061B2E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ED8868735EA94E0EF5AB2ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tiffin/Pods-Tiffin-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tiffin/Pods-Tiffin-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tiffin/Pods-Tiffin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CA67F54C423C1114430E9A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TiffinUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FEB779E62F4C4A2536769D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tiffin/Pods-Tiffin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tiffin/Pods-Tiffin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tiffin/Pods-Tiffin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD09494B0D81C6F2C198219F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TiffinTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1F6AB46FF6DABD6C1CFE3AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tiffin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49C6498E22B327650061B2E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4912E51F22B6DE9E004FE7B4 /* MainViewController.swift in Sources */,
+				49C6499822B327650061B2E6 /* ViewController.swift in Sources */,
+				4914CC3D22B4BAE6008AA14F /* AllergyViewController.swift in Sources */,
+				49C6499622B327650061B2E6 /* AppDelegate.swift in Sources */,
+				4912E52322B6F199004FE7B4 /* User.swift in Sources */,
+				4913A7CE22B590BE00016A0F /* CustomSegue.swift in Sources */,
+				4913A7D022B5937600016A0F /* LaunchScreenViewController.swift in Sources */,
+				4914CC3B22B4797C008AA14F /* SignInViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C649A222B327660061B2E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C649AB22B327660061B2E6 /* TiffinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C649AD22B327660061B2E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C649B622B327660061B2E6 /* TiffinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49C649A822B327660061B2E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49C6499122B327650061B2E6 /* Tiffin */;
+			targetProxy = 49C649A722B327660061B2E6 /* PBXContainerItemProxy */;
+		};
+		49C649B322B327660061B2E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49C6499122B327650061B2E6 /* Tiffin */;
+			targetProxy = 49C649B222B327660061B2E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49C6499922B327650061B2E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49C6499A22B327650061B2E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49C6499E22B327660061B2E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49C6499F22B327660061B2E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49C649B822B327660061B2E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49C649B922B327660061B2E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49C649BB22B327660061B2E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A6052641B576B09EA5852A5 /* Pods-Tiffin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Tiffin/Tiffin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X555FVBX9;
+				INFOPLIST_FILE = Tiffin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shauryapathak.Tiffin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49C649BC22B327660061B2E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6637D00C622ABF9158D0FACC /* Pods-Tiffin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Tiffin/Tiffin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2X555FVBX9;
+				INFOPLIST_FILE = Tiffin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shauryapathak.Tiffin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49C649BE22B327660061B2E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911560772FD6605D685A19C7 /* Pods-TiffinTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TiffinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shauryapathak.TiffinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tiffin.app/Tiffin";
+			};
+			name = Debug;
+		};
+		49C649BF22B327660061B2E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E682770BA57053B00ACD46AE /* Pods-TiffinTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TiffinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shauryapathak.TiffinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tiffin.app/Tiffin";
+			};
+			name = Release;
+		};
+		49C649C122B327660061B2E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 828DA04C117909BFBE905D4C /* Pods-TiffinUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TiffinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shauryapathak.TiffinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tiffin;
+			};
+			name = Debug;
+		};
+		49C649C222B327660061B2E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C0EA7F0BE2BEC82101E00BC /* Pods-TiffinUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TiffinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shauryapathak.TiffinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tiffin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49C6498D22B327650061B2E6 /* Build configuration list for PBXProject "Tiffin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C649B822B327660061B2E6 /* Debug */,
+				49C649B922B327660061B2E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C649BA22B327660061B2E6 /* Build configuration list for PBXNativeTarget "Tiffin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C649BB22B327660061B2E6 /* Debug */,
+				49C649BC22B327660061B2E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C649BD22B327660061B2E6 /* Build configuration list for PBXNativeTarget "TiffinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C649BE22B327660061B2E6 /* Debug */,
+				49C649BF22B327660061B2E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C649C022B327660061B2E6 /* Build configuration list for PBXNativeTarget "TiffinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C649C122B327660061B2E6 /* Debug */,
+				49C649C222B327660061B2E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49C6498A22B327650061B2E6 /* Project object */;
+}
