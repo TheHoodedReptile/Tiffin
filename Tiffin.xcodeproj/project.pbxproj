@@ -16,6 +16,7 @@
 		4914CC3B22B4797C008AA14F /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914CC3A22B4797C008AA14F /* SignInViewController.swift */; };
 		4914CC3D22B4BAE6008AA14F /* AllergyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914CC3C22B4BAE6008AA14F /* AllergyViewController.swift */; };
 		495DB63022B455160051BE89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 495DB62F22B455160051BE89 /* GoogleService-Info.plist */; };
+		497CD1B922C31B26009EFBFA /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497CD1B822C31B26009EFBFA /* UserInfoViewController.swift */; };
 		49C6499622B327650061B2E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C6499522B327650061B2E6 /* AppDelegate.swift */; };
 		49C6499822B327650061B2E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C6499722B327650061B2E6 /* ViewController.swift */; };
 		49C6499B22B327650061B2E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C6499922B327650061B2E6 /* Main.storyboard */; };
@@ -55,6 +56,7 @@
 		4914CC3A22B4797C008AA14F /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		4914CC3C22B4BAE6008AA14F /* AllergyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergyViewController.swift; sourceTree = "<group>"; };
 		495DB62F22B455160051BE89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		497CD1B822C31B26009EFBFA /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 		49C6499222B327650061B2E6 /* Tiffin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tiffin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C6499522B327650061B2E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49C6499722B327650061B2E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				49C6499522B327650061B2E6 /* AppDelegate.swift */,
 				49C6499722B327650061B2E6 /* ViewController.swift */,
 				49C6499922B327650061B2E6 /* Main.storyboard */,
+				497CD1B822C31B26009EFBFA /* UserInfoViewController.swift */,
 				4912E51E22B6DE9E004FE7B4 /* MainViewController.swift */,
 				4913A7CF22B5937600016A0F /* LaunchScreenViewController.swift */,
 				4913A7CD22B590BE00016A0F /* CustomSegue.swift */,
@@ -437,6 +440,7 @@
 				49C6499822B327650061B2E6 /* ViewController.swift in Sources */,
 				4914CC3D22B4BAE6008AA14F /* AllergyViewController.swift in Sources */,
 				49C6499622B327650061B2E6 /* AppDelegate.swift in Sources */,
+				497CD1B922C31B26009EFBFA /* UserInfoViewController.swift in Sources */,
 				4912E52322B6F199004FE7B4 /* User.swift in Sources */,
 				4913A7CE22B590BE00016A0F /* CustomSegue.swift in Sources */,
 				4913A7D022B5937600016A0F /* LaunchScreenViewController.swift in Sources */,

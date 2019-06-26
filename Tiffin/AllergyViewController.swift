@@ -7,13 +7,16 @@
 //
 
 import UIKit
+import Firebase
 
 
 
 class AllergyViewController: UIViewController {
 
-    @IBOutlet weak var peanutAllergy: UIButton!
     
+    // Declaration of Outlets
+    
+    @IBOutlet weak var peanutAllergy: UIButton!
     @IBOutlet weak var milkAllergy: UIButton!
     @IBOutlet weak var soyAllergy: UIButton!
     @IBOutlet weak var eggAllergy: UIButton!
@@ -22,9 +25,11 @@ class AllergyViewController: UIViewController {
     @IBOutlet weak var fishAllergy: UIButton!
     @IBOutlet weak var wheatAllergy: UIButton!
     
+    // var docRef: DocumentReference!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        // Format images
         wheatAllergy.clipsToBounds = true
         wheatAllergy.layer.cornerRadius = 65
         wheatAllergy.layer.borderWidth = 5
@@ -53,25 +58,27 @@ class AllergyViewController: UIViewController {
         peanutAllergy.layer.cornerRadius = 65
         peanutAllergy.layer.borderWidth = 5
         peanutAllergy.layer.borderColor = UIColor.init(displayP3Red: 232.0/255, green: 142.0/255, blue: 53.0/255, alpha: 1.0).cgColor
-        milkAllergy.clipsToBounds = true
+        //milkAllergy.clipsToBounds = true
         milkAllergy.layer.cornerRadius = 65
         milkAllergy.layer.borderWidth = 5
         milkAllergy.layer.borderColor = UIColor.init(displayP3Red: 232.0/255, green: 142.0/255, blue: 53.0/255, alpha: 1.0).cgColor
         // Do any additional setup after loading the view.
+        // docRef = Firestore.firestore().collection("sampleData").document("inspiration")
+        db = Firestore.firestore()
     }
     
-    var ref: DocumentReference? = nil
-    ref = db.collection("users").addDocument(data: [
-    "first": "Ada",
-    "last": "Lovelace",
-    "born": 1815
-    ]) { err in
-    if let err = err {
-    print("Error adding document: \(err)")
-    } else {
-    print("Document added with ID: \(ref!.documentID)")
-    }
-    }
+    var username = ""
+    var currentEmail2 = ""
+    var db: Firestore!
+    // Sets default values for whether their are allergies to False
+    var peanutAllergyInd = false
+    var milkAllergyInd = false
+    var soyAllergyInd = false
+    var eggAllergyInd = false
+    var shellfishAllergyInd = false
+    var treeNutAllergyInd = false
+    var fishAllergyInd = false
+    var wheatAllergyInd = false
     
     @IBAction func allergyButtonClicked(_ sender: Any) {
         
@@ -82,6 +89,7 @@ class AllergyViewController: UIViewController {
             self.peanutAllergy.alpha = 0.3
             
         }, completion: nil)
+            peanutAllergyInd = true
         }
         else    {
             
@@ -90,7 +98,7 @@ class AllergyViewController: UIViewController {
                 self.peanutAllergy.alpha = 1.0
                 
             }, completion: nil)
-            
+            peanutAllergyInd = false
         }
     }
     @IBAction func milkButtonClick(_ sender: Any) {
@@ -101,6 +109,8 @@ class AllergyViewController: UIViewController {
             self.milkAllergy.alpha = 0.3
             
         }, completion: nil)
+    
+            milkAllergyInd = true
             
         }
         else    {
@@ -111,7 +121,10 @@ class AllergyViewController: UIViewController {
                 
             }, completion: nil)
             
+            milkAllergyInd = false
+            
         }
+        
     }
     
     // Actually for Soy Allergy
@@ -125,6 +138,8 @@ class AllergyViewController: UIViewController {
                 
             }, completion: nil)
             
+            soyAllergyInd = true
+            
         }
         else    {
             
@@ -134,12 +149,14 @@ class AllergyViewController: UIViewController {
                 
             }, completion: nil)
             
+            soyAllergyInd = false
+            
         }
+        print(currentEmail2)
         
     }
     
-    @IBAction func soyAllergy(_ sender: Any) {
-    }
+
     
     @IBAction func eggAllergyClicked(_ sender: Any) {
         
@@ -151,6 +168,8 @@ class AllergyViewController: UIViewController {
                 
             }, completion: nil)
             
+            eggAllergyInd = true
+            
         }
         else    {
             
@@ -159,6 +178,8 @@ class AllergyViewController: UIViewController {
                 self.eggAllergy.alpha = 1.0
                 
             }, completion: nil)
+            
+            eggAllergyInd = false
             
         }
         
@@ -174,6 +195,8 @@ class AllergyViewController: UIViewController {
                 
             }, completion: nil)
             
+            shellfishAllergyInd = true
+            
         }
         else    {
             
@@ -182,6 +205,8 @@ class AllergyViewController: UIViewController {
                 self.shellfishAllergy.alpha = 1.0
                 
             }, completion: nil)
+            
+            shellfishAllergyInd = false
             
         }
         
@@ -197,6 +222,8 @@ class AllergyViewController: UIViewController {
                 
             }, completion: nil)
             
+            treeNutAllergyInd = true
+            
         }
         else    {
             
@@ -205,6 +232,8 @@ class AllergyViewController: UIViewController {
                 self.treeNutAllergy.alpha = 1.0
                 
             }, completion: nil)
+            
+            treeNutAllergyInd = false
             
         }
         
@@ -220,6 +249,8 @@ class AllergyViewController: UIViewController {
                 
             }, completion: nil)
             
+            fishAllergyInd = true
+            
         }
         else    {
             
@@ -228,6 +259,8 @@ class AllergyViewController: UIViewController {
                 self.fishAllergy.alpha = 1.0
                 
             }, completion: nil)
+            
+            fishAllergyInd = false
             
         }
         
@@ -243,6 +276,8 @@ class AllergyViewController: UIViewController {
                 
             }, completion: nil)
             
+            wheatAllergyInd = true
+            
         }
         else    {
             
@@ -252,9 +287,33 @@ class AllergyViewController: UIViewController {
                 
             }, completion: nil)
             
+            wheatAllergyInd = false
+            
         }
         
     }
+
+    
+    // Sets allergy data for user when next button is tapped
+    @IBAction func nextButtonTapped(_ sender: Any) {
+        
+        //var ref: DocumentReference! = nil
+        db.collection("users").document(currentEmail2).collection("userInfo").document("Allergies").setData([
+            "dairy": milkAllergyInd,
+            "eggs": eggAllergyInd,
+            "fish": fishAllergyInd,
+            "peanuts": peanutAllergyInd,
+            "shellfish": shellfishAllergyInd,
+            "soy": soyAllergyInd,
+            "treeNuts": treeNutAllergyInd,
+            "wheat": wheatAllergyInd
+        ]) { err in
+            if let err = err {
+                print("Error writing document: \(err)")
+            } else {
+                print("Document successfully written!")
+            }
+        }
     
     /*
     // MARK: - Navigation
@@ -266,4 +325,5 @@ class AllergyViewController: UIViewController {
     }
     */
 
+}
 }

@@ -45,17 +45,4 @@ struct User {
     self.uid = uid
     self.email = email
   }
-    var ref: DocumentReference? = nil
-    ref = db.collection("users").addDocument(data: [
-    "first": "Alan",
-    "middle": "Mathison",
-    "last": "Turing",
-    "born": 1912
-    ]) { err in
-    if let err = err {
-    print("Error adding document: \(err)")
-    } else {
-    print("Document added with ID: \(ref!.documentID)")
-    }
-    }
 }
