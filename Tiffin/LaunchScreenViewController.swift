@@ -20,7 +20,14 @@ class LaunchScreenViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        performSegue(withIdentifier: "firstSegue", sender: self)
+        if goatUser != nil  {
+            print("ned")
+            performSegue(withIdentifier: "defaultSegue", sender: self)
+        }
+        else    {
+            performSegue(withIdentifier: "firstSegue", sender: self)
+        }
+        
     }
  
 

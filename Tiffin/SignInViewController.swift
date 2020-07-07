@@ -47,6 +47,7 @@ class SignInViewController: UIViewController {
                 // self.ImageIndicator.image = UIImage (named: "phone2")
             }
             else    {
+                currentEmail = email
                 self.performSegue(withIdentifier: "loginSegue", sender: self)
             }
         }
@@ -71,7 +72,7 @@ class SignInViewController: UIViewController {
     var email = ""
     
     @IBAction func signUpDidTouch(_ sender: AnyObject) {
-        let alert = UIAlertController(title: "Register",
+        /*let alert = UIAlertController(title: "Register",
                                       message: "Register",
                                       preferredStyle: .alert)
         
@@ -87,7 +88,7 @@ class SignInViewController: UIViewController {
                     
                     Auth.auth().signIn(withEmail: self.textFieldLoginEmail.text!,
                                        password: self.textFieldLoginPassword.text!)
-                    self.performSegue(withIdentifier: "userInfoSegue", sender: self)
+         
                     
                 }
             }
@@ -108,19 +109,20 @@ class SignInViewController: UIViewController {
         alert.addAction(saveAction)
         alert.addAction(cancelAction)
         
-        present(alert, animated: true, completion: nil)
+        present(alert, animated: true, completion: nil) */
+        self.performSegue(withIdentifier: "userInfoSegue", sender: self)
     }
     
     
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    /*override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "userInfoSegue"   {
             
             let destination: UserInfoViewController = segue.destination as! UserInfoViewController
             destination.currentEmail = email
         }
         
-    }
+    } */
     
 }
 

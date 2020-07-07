@@ -8,11 +8,14 @@ target 'Tiffin' do
   # Pods for Tiffin
 
 	pod 'Firebase/Analytics'
+  pod 'Firebase/Storage'
 	pod 'FirebaseUI/Auth'
 	pod 'FirebaseUI/Google'
   pod 'Firebase/Database'
   pod 'Firebase/Core'
   pod 'Firebase/Firestore'
+  pod 'GoogleSignIn'
+  pod 'FirebaseUI/Storage'
 
   target 'TiffinTests' do
     inherit! :search_paths

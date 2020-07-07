@@ -9,14 +9,21 @@
 /* Begin PBXBuildFile section */
 		3F1E8EA1CA467C934C734EBC /* Pods_Tiffin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C528B4A2FA060B87D0D76FA /* Pods_Tiffin.framework */; };
 		42E5B711356944FA25D374A1 /* Pods_TiffinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28125AD31D9E053BFC89D6A5 /* Pods_TiffinUITests.framework */; };
+		4902A3B223B867F4001E9C73 /* ZCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4902A3B123B867F4001E9C73 /* ZCarousel.swift */; };
+		490ADD80230BBEED00AEE6D6 /* ChefMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490ADD7F230BBEEC00AEE6D6 /* ChefMealViewController.swift */; };
+		4912C38A23D52FF8006050A5 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912C38923D52FF8006050A5 /* CheckoutViewController.swift */; };
 		4912E51F22B6DE9E004FE7B4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912E51E22B6DE9E004FE7B4 /* MainViewController.swift */; };
 		4912E52322B6F199004FE7B4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4912E52222B6F199004FE7B4 /* User.swift */; };
 		4913A7CE22B590BE00016A0F /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4913A7CD22B590BE00016A0F /* CustomSegue.swift */; };
 		4913A7D022B5937600016A0F /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4913A7CF22B5937600016A0F /* LaunchScreenViewController.swift */; };
 		4914CC3B22B4797C008AA14F /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914CC3A22B4797C008AA14F /* SignInViewController.swift */; };
 		4914CC3D22B4BAE6008AA14F /* AllergyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4914CC3C22B4BAE6008AA14F /* AllergyViewController.swift */; };
+		4930D984230730E0003419A6 /* uploadFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4930D983230730E0003419A6 /* uploadFileViewController.swift */; };
+		495AC21D22C7D75000721A7C /* ProfilePictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495AC21C22C7D75000721A7C /* ProfilePictureViewController.swift */; };
 		495DB63022B455160051BE89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 495DB62F22B455160051BE89 /* GoogleService-Info.plist */; };
+		496773E222F0EE7E00B6CE81 /* GoogleSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496773E122F0EE7E00B6CE81 /* GoogleSignUpViewController.swift */; };
 		497CD1B922C31B26009EFBFA /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497CD1B822C31B26009EFBFA /* UserInfoViewController.swift */; };
+		497CD1BB22C41DB6009EFBFA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497CD1BA22C41DB6009EFBFA /* MapViewController.swift */; };
 		49C6499622B327650061B2E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C6499522B327650061B2E6 /* AppDelegate.swift */; };
 		49C6499822B327650061B2E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C6499722B327650061B2E6 /* ViewController.swift */; };
 		49C6499B22B327650061B2E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C6499922B327650061B2E6 /* Main.storyboard */; };
@@ -24,6 +31,11 @@
 		49C649A022B327660061B2E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C6499E22B327660061B2E6 /* LaunchScreen.storyboard */; };
 		49C649AB22B327660061B2E6 /* TiffinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C649AA22B327660061B2E6 /* TiffinTests.swift */; };
 		49C649B622B327660061B2E6 /* TiffinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C649B522B327660061B2E6 /* TiffinUITests.swift */; };
+		49D68AE623036E4000B64C3B /* ChefMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D68AE523036E4000B64C3B /* ChefMainViewController.swift */; };
+		49E62BD22300A7F10049096A /* ChefLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E62BD12300A7F10049096A /* ChefLocationViewController.swift */; };
+		49E62BD4230127BF0049096A /* ChefInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E62BD3230127BF0049096A /* ChefInfoViewController.swift */; };
+		49ECF0D82325874900209E8E /* SpecificMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49ECF0D72325874900209E8E /* SpecificMealViewController.swift */; };
+		49FC205722FA986A00E9D3AF /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FC205622FA986A00E9D3AF /* Artwork.swift */; };
 		6A1AE6053F37EC13102FF35C /* Pods_TiffinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750ED79C3282944C30EB38E3 /* Pods_TiffinTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +60,9 @@
 		0C0EA7F0BE2BEC82101E00BC /* Pods-TiffinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiffinUITests.release.xcconfig"; path = "Target Support Files/Pods-TiffinUITests/Pods-TiffinUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1C528B4A2FA060B87D0D76FA /* Pods_Tiffin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tiffin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28125AD31D9E053BFC89D6A5 /* Pods_TiffinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiffinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4902A3B123B867F4001E9C73 /* ZCarousel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZCarousel.swift; sourceTree = "<group>"; };
+		490ADD7F230BBEEC00AEE6D6 /* ChefMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefMealViewController.swift; sourceTree = "<group>"; };
+		4912C38923D52FF8006050A5 /* CheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
 		4912E51D22B6D213004FE7B4 /* Tiffin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tiffin.entitlements; sourceTree = "<group>"; };
 		4912E51E22B6DE9E004FE7B4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4912E52222B6F199004FE7B4 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -55,8 +70,12 @@
 		4913A7CF22B5937600016A0F /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
 		4914CC3A22B4797C008AA14F /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		4914CC3C22B4BAE6008AA14F /* AllergyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergyViewController.swift; sourceTree = "<group>"; };
+		4930D983230730E0003419A6 /* uploadFileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploadFileViewController.swift; sourceTree = "<group>"; };
+		495AC21C22C7D75000721A7C /* ProfilePictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePictureViewController.swift; sourceTree = "<group>"; };
 		495DB62F22B455160051BE89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		496773E122F0EE7E00B6CE81 /* GoogleSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignUpViewController.swift; sourceTree = "<group>"; };
 		497CD1B822C31B26009EFBFA /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		497CD1BA22C41DB6009EFBFA /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		49C6499222B327650061B2E6 /* Tiffin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tiffin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C6499522B327650061B2E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49C6499722B327650061B2E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +89,11 @@
 		49C649B122B327660061B2E6 /* TiffinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiffinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C649B522B327660061B2E6 /* TiffinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiffinUITests.swift; sourceTree = "<group>"; };
 		49C649B722B327660061B2E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49D68AE523036E4000B64C3B /* ChefMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefMainViewController.swift; sourceTree = "<group>"; };
+		49E62BD12300A7F10049096A /* ChefLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefLocationViewController.swift; sourceTree = "<group>"; };
+		49E62BD3230127BF0049096A /* ChefInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefInfoViewController.swift; sourceTree = "<group>"; };
+		49ECF0D72325874900209E8E /* SpecificMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificMealViewController.swift; sourceTree = "<group>"; };
+		49FC205622FA986A00E9D3AF /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 		5A6052641B576B09EA5852A5 /* Pods-Tiffin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiffin.debug.xcconfig"; path = "Target Support Files/Pods-Tiffin/Pods-Tiffin.debug.xcconfig"; sourceTree = "<group>"; };
 		6637D00C622ABF9158D0FACC /* Pods-Tiffin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiffin.release.xcconfig"; path = "Target Support Files/Pods-Tiffin/Pods-Tiffin.release.xcconfig"; sourceTree = "<group>"; };
 		750ED79C3282944C30EB38E3 /* Pods_TiffinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiffinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,13 +172,25 @@
 				49C6499522B327650061B2E6 /* AppDelegate.swift */,
 				49C6499722B327650061B2E6 /* ViewController.swift */,
 				49C6499922B327650061B2E6 /* Main.storyboard */,
+				4912C38923D52FF8006050A5 /* CheckoutViewController.swift */,
+				490ADD7F230BBEEC00AEE6D6 /* ChefMealViewController.swift */,
+				49ECF0D72325874900209E8E /* SpecificMealViewController.swift */,
+				4930D983230730E0003419A6 /* uploadFileViewController.swift */,
+				49D68AE523036E4000B64C3B /* ChefMainViewController.swift */,
+				49E62BD3230127BF0049096A /* ChefInfoViewController.swift */,
+				49E62BD12300A7F10049096A /* ChefLocationViewController.swift */,
+				495AC21C22C7D75000721A7C /* ProfilePictureViewController.swift */,
+				496773E122F0EE7E00B6CE81 /* GoogleSignUpViewController.swift */,
+				497CD1BA22C41DB6009EFBFA /* MapViewController.swift */,
 				497CD1B822C31B26009EFBFA /* UserInfoViewController.swift */,
 				4912E51E22B6DE9E004FE7B4 /* MainViewController.swift */,
 				4913A7CF22B5937600016A0F /* LaunchScreenViewController.swift */,
 				4913A7CD22B590BE00016A0F /* CustomSegue.swift */,
-				4912E52222B6F199004FE7B4 /* User.swift */,
 				4914CC3C22B4BAE6008AA14F /* AllergyViewController.swift */,
 				4914CC3A22B4797C008AA14F /* SignInViewController.swift */,
+				49FC205622FA986A00E9D3AF /* Artwork.swift */,
+				4902A3B123B867F4001E9C73 /* ZCarousel.swift */,
+				4912E52222B6F199004FE7B4 /* User.swift */,
 				49C6499C22B327660061B2E6 /* Assets.xcassets */,
 				49C6499E22B327660061B2E6 /* LaunchScreen.storyboard */,
 				495DB62F22B455160051BE89 /* GoogleService-Info.plist */,
@@ -437,9 +473,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				4912E51F22B6DE9E004FE7B4 /* MainViewController.swift in Sources */,
+				4930D984230730E0003419A6 /* uploadFileViewController.swift in Sources */,
+				4902A3B223B867F4001E9C73 /* ZCarousel.swift in Sources */,
+				49D68AE623036E4000B64C3B /* ChefMainViewController.swift in Sources */,
 				49C6499822B327650061B2E6 /* ViewController.swift in Sources */,
+				496773E222F0EE7E00B6CE81 /* GoogleSignUpViewController.swift in Sources */,
+				495AC21D22C7D75000721A7C /* ProfilePictureViewController.swift in Sources */,
+				49ECF0D82325874900209E8E /* SpecificMealViewController.swift in Sources */,
 				4914CC3D22B4BAE6008AA14F /* AllergyViewController.swift in Sources */,
+				497CD1BB22C41DB6009EFBFA /* MapViewController.swift in Sources */,
 				49C6499622B327650061B2E6 /* AppDelegate.swift in Sources */,
+				490ADD80230BBEED00AEE6D6 /* ChefMealViewController.swift in Sources */,
+				49E62BD4230127BF0049096A /* ChefInfoViewController.swift in Sources */,
+				4912C38A23D52FF8006050A5 /* CheckoutViewController.swift in Sources */,
+				49FC205722FA986A00E9D3AF /* Artwork.swift in Sources */,
+				49E62BD22300A7F10049096A /* ChefLocationViewController.swift in Sources */,
 				497CD1B922C31B26009EFBFA /* UserInfoViewController.swift in Sources */,
 				4912E52322B6F199004FE7B4 /* User.swift in Sources */,
 				4913A7CE22B590BE00016A0F /* CustomSegue.swift in Sources */,
@@ -628,7 +676,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shauryapathak.Tiffin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shauryapathak.Tiffin24;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -648,7 +696,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shauryapathak.Tiffin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shauryapathak.Tiffin24;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
